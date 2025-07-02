@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <H1>PROYECTO DE PRUEBA
-
-    </H1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit beatae eius omnis magni ea facilis porro libero, velit nisi, laborum expedita asperiores quos optio vero! Corrupti, aspernatur? Accusantium, perspiciatis tenetur.</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bienvenida interactiva</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h2>BIENVENIDO</h2>
+      <input type="text" id="nombre" placeholder="Ingresa tu nombre:" />
+      <br />
+      <button onclick="MostrarMensaje()">Mostrar Saludo</button>
+      <div id="mensaje"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
 </html>

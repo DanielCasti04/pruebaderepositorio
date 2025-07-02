@@ -1,0 +1,39 @@
+body {
+  background-color: bisque;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin: 0;
+}
+.card {
+  background-color: aliceblue;
+  padding: 100px;
+  margin-top: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px black;
+  text-align: center;
+  size: 40%;
+}
+input {
+  padding: 10px;
+  width: 100%;
+  max-width: 250px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  border-radius: 12px;
+}
+button:hover {
+  background-color: honeydew;
+}
+#mensaje {
+  margin: 20px;
+  font-size: 1.2 em;
+  color: #333;
+}
